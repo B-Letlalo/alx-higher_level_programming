@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 
 for i in range(100):
-    print(f"{i}, ".format(i), end='')
+    print(f"{i:02d}, ".format(i), end='')
