@@ -6,10 +6,10 @@ b = 5
 
 if (__name__ == "__main__"):
     addition = add(a, b)
-    print(f"{a} + {b} = {addition}")
+    print("{} + {} = {}".format(a, b, addition))
     subtraction = sub(a, b)
-    print(f"{a} - {b} = {subtraction}")
+    print("{} - {} = {}".format(a, b, subtraction))
     multiplication = mul(a, b)
-    print(f"{a} * {b} = {multiplication}")
+    print("{} * {} = {}".format(a, b, multiplication))
     division = div(a, b)
-    print(f"{a} / {b} = {division}")
+    print("{} / {} = {}".format(a, b, division))
