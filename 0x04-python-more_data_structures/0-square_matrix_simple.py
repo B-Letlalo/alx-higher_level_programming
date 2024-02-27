@@ -11,4 +11,4 @@ def square_matrix_simple(matrix=[]):
         for j in range(col):
             new_matrix[i][j] = matrix[i][j]**2
 
-    return(new_matrix)
+    return (new_matrix)
